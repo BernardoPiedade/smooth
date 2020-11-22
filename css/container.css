@@ -5,11 +5,12 @@
 */
 
 div.container {
-	width: 90%;
-	align-self: center;
+	display: flex;
+  	flex-direction: row;
 }
 
-div.containerf {
-	width: 100%;
-	align-self: center;
-}
+@media (max-width: 800px) {
+	.container {
+	  flex-direction: column;
+	}
+  }

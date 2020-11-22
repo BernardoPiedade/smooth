@@ -1,0 +1,104 @@
+/* 
+
+	Navbar
+	
+*/
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li.list-i {
+	float: left;
+}
+
+li.list-i a {
+	display: block;
+	color: whitesmoke;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li.list-i a:hover:not(.active){
+	background-color: #111;
+}
+
+.active {
+	background-color: #111;
+}
+
+/* Align item right */
+
+li.list-i-right {
+	float: right;
+}
+
+/* Add border between items */
+
+li.border {
+	border-right: 1px solid #000;
+}
+
+li.border:last-child {
+	border-right: none;
+}
+
+/* Fixed top */
+
+ul.nav-f-top {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Fixed bottom */
+
+ul.nav-f-bottom {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+/* Sticky nav */
+
+ul.nav-sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+/* Dropdown */
+
+li.dropdown {
+	display: inline-block;
+}
+
+div.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+  
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+}
