@@ -1,0 +1,55 @@
+/* 
+
+	Align
+	
+*/
+
+/* Div */
+
+div.center {
+	margin: auto;
+	width: 50%;
+}
+
+/* Text */
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+/* Image */
+
+img.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.img-left {
+	float: left;
+}
+
+img.img-right {
+	float: right;
+}
+
+/* Clearfix */
+
+.clearfix {
+	overflow: auto;
+}
+
+/* Center vertically */
+
+div.center-v {
+	display: flex;
+	align-items: center;
+}
