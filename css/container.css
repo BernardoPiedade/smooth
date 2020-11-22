@@ -1,0 +1,15 @@
+/* 
+
+	Containers
+	
+*/
+
+div.container {
+	width: 90%;
+	align-self: center;
+}
+
+div.containerf {
+	width: 100%;
+	align-self: center;
+}
